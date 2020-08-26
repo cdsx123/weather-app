@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#mainInfo{
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  width: 80%;
+}
+
+#place{
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#weather{
+  box-sizing: border-box;
+  text-align: center;
+  width: 50%;
+  border: 2px solid black;
+}
+
+#temperatures{
+  box-sizing: border-box;
+  text-align: center;
+  width:50%;
+  border: 2px solid black;
+}
+
+#extra{
+  box-sizing: border-box;
+  text-align: center;
+  width:100%;
+  border: 2px solid black;
+}
+
+#title{
+  margin: 0px;
+  font-size: 8vw;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+form{
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+input{
+  width: 300px;
+  height:50px;
+  font-size: 40px
+}
+
+button{
+  color: white;
+  width: 130px;
+  font-size: 30px;
+  background-image: linear-gradient(to right, purple, violet);
+}
